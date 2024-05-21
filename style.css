@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+main{
+    height: 100%;
+    width: 70%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1701890795477-dec1d51b016f?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 15%
+}
+h1{
+    height: 40px;
+    width: 200px;
+    /* background-color: aqua; */
+    z-index: 9;
+    position: absolute;
+    top:15%;
+    left: 13%;
+    color: white;
+}
+h2{
+    height: 40px;
+    width: 200px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 60%;
+    left: 11%;
+    font-size: 35px;
+    color:black;
+}
+p{
+    height: 300px;
+    width: 550px;
+    /* background-color:blueviolet ; */
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 50px;
+    padding: 7% 5%;
+    font-weight: 600;
+    color: rgb(236, 24, 24);
+}
+.box{
+    height: 100px;
+    width: 270px;
+    background:linear-gradient(rgb(247, 222, 82),rgb(245, 167, 65),rgb(238, 119, 9));
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+    margin: 20% 15%;
+    
+}
+.rrr{
+    height: 250px;
+    width: 400px;
+    /* background-color: aqua; */
+    margin-top: 10%;
+    
+}
+
+.input{
+    position: relative;
+    visibility: hidden;
+}
+
+.box>input::before{
+    visibility: initial;
+    content: "";
+    /* display: inline-block; */
+    position: absolute;
+    width: 100px;
+    height:99px;
+    background-image: url(https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: 1 25s all;
+}
+.box>input:checked::before {
+    transform: translateX(180px);
+}
+
+
+.box1{
+    height: 100px;
+    width: 270px;
+    background:linear-gradient(rgb(83, 129, 189),rgb(28, 27, 117),rgb(12, 15, 58));
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+    margin: 20% 15%;
+
+}
+.kkk{
+    height: 250px;
+    width: 400px;
+    /* background-color: rgb(0, 255, 42); */
+    margin: 5% 0;
+    
+}
+input{
+    height: 10%;
+    width: 20%;
+    position: absolute;
+    visibility: hidden;
+    
+}
+
+.box1>input::before{
+    visibility: initial;
+    content: "";
+     display: inline-block;
+     position: absolute;
+    width: 100px;
+    height:99px;
+    background-image: url(https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1402&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: 1 25s all;
+}
+input:checked::before {
+    transform: translateX(180px);
+} 
